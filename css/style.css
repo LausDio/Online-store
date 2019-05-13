@@ -64,7 +64,7 @@ table {
   width: 100%;
   height: 30px;
   float: left;
-  background-color: #ffa800;
+  background-color: #0084ff;
   font-size: 12px;
   font-weight: 600;
   position: relative;
@@ -105,10 +105,10 @@ table {
   position: absolute;
   display: none;
   z-index: 999;
-  background-color: #ffa800;
+  background-color: #0084ff;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  border: 1px solid #eea312;
+  border: 1px solid #0074ec;
 }
 .topbar ul li ul li{
   width: 100%;
@@ -132,7 +132,7 @@ table {
 }
 .header .logo{
   float: left;
-  width: 20%;
+  width: 22%;
 }
 .header .searchbar{
   width: 45%;
@@ -160,7 +160,81 @@ table {
 .header .headerright ul li .signBtn{
   padding: 8px 13px;
   border-radius: 50px;
-  background-color: #ffa800;
+  background-color: #0084ff;
   color: #fff;
   font-weight: 600;
+}
+/*Categories Menu*/
+.productContent{
+	display: inline-block;
+	width: 100%;
+	float: left;
+	padding: 15px 0;
+	position: relative;
+}
+.productContent .productCategories{
+	width: 20%;
+	float: left;
+	padding: 7px 15px;
+	border-radius: 8px;
+	border: 1px solid #dfdcdc;
+}
+.productContent .productCategories ul li{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin: 5px 0 10px;
+}
+.productContent .productCategories ul li a i.fa-caret-right{
+	margin-left: 5px;
+	color: #0074ec;
+	vertical-align: middle;
+	margin-top: -1px;
+}
+.productContent .productCategories ul li a{
+	display: inline-block;
+	padding: 5px 0;
+	text-decoration: none;
+	color: #333;
+	font-weight: 600;
+}
+.megamenu{
+	position: absolute;
+	width: 70.2%;
+	background-color: #fff;
+	border: 1px solid gainsboro;
+	left: 24.8%;
+	top: 2.5%;
+	min-height: 372px;
+	border-radius: 8px;
+	z-index: 9999;
+	display: none;
+}
+.productContent .productCategories ul li ul{
+	max-width: 22%;
+	float: left;
+	padding: 15px;
+}
+.productContent .productCategories ul li ul h3{
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #333;
+	margin-bottom: 10px;
+}
+.productContent .productCategories ul li ul li{
+	margin: 0;
+	display: inline-block;
+	float: left;
+}
+.productContent .productCategories ul li ul li a{
+	color: #333;
+	font-size: 14px;
+	font-weight: 500;
+}
+.productContent .productCategories ul li ul li a:hover{
+	color: #ffdd05;
+}
+.productContent .productCategories ul li:hover .megamenu{
+	/*display: block;*/
 }
